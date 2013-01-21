@@ -20,3 +20,4 @@ To git@github.com:b3t0/JFP.git
 --- listar origen 
 $ git remote -v 
 origin  git@github.com:b3t0/JFP.git 
+
