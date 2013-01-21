@@ -1,1 +1,22 @@
-<br>cas<br/>
+--- listar branch 
+$ git branch 
+* master 
+
+--- crear branch e inmediatamente cambiarse a ella 
+$ git checkout -b fix_readme 
+Switched to a new branch "fix_readme" 
+
+--- listar branch 
+$ git branch 
+* fix_readme 
+  master 
+
+--- subir branch a github 
+$ git push origin fix_readme 
+Total 0 (delta 0), reused 0 (delta 0) 
+To git@github.com:b3t0/JFP.git 
+ * [new branch]      fix_readme -> fix_readme 
+
+--- listar origen 
+$ git remote -v 
+origin  git@github.com:b3t0/JFP.git 
